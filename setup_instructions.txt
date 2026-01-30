@@ -1,0 +1,42 @@
+ROBLOX STUDIO SETUP INSTRUCTIONS FOR HANGOUT PLACE
+
+1. OPEN ROBLOX STUDIO:
+   - Launch Roblox Studio from your computer
+
+2. CREATE A NEW PLACE:
+   - Click "New" to create a blank place
+
+3. IMPORT THE SCRIPTS:
+   - In the Explorer panel (usually on the right), find ServerScriptService
+   - If ServerScriptService doesn't exist, create it by right-clicking Lighting → Insert Object → ServerScriptService
+   - Right-click on ServerScriptService → Insert Object → Script (this creates a new script)
+   - Copy the contents of main.lua and paste it into this new script
+   - Rename this script to "Main"
+
+4. ADD MODULE SCRIPTS:
+   - Right-click ServerScriptService → Insert Object → ModuleScript
+   - Name it "SocialHub" and paste the contents of social_hub.lua
+   - Repeat for other scripts:
+     - "ActivitiesZone" with activities_zone.lua
+     - "TransportSystem" with transport_system.lua
+     - "CustomizationSystem" with customization_system.lua
+     - "Setup" with setup.lua
+     - "Model" with model.lua
+
+5. UPDATE THE MAIN SCRIPT:
+   - Modify main.lua to reference the module scripts by name:
+     local SocialHub = require(game.ServerScriptService.SocialHub)
+     local ActivitiesZone = require(game.ServerScriptService.ActivitiesZone)
+     etc.
+
+6. CREATE THE ENVIRONMENT:
+   - Create the physical spaces referenced in the scripts:
+     - Main hangout area with seating
+     - Transportation points for different locations
+     - Activity zones for games and challenges
+
+7. TEST THE GAME:
+   - Press the "Play" button to test your game
+   - Make sure all systems work properly
+
+Note: The scripts expect certain parts and services to exist in the game world. You'll need to create these in Roblox Studio and link them to the scripts.

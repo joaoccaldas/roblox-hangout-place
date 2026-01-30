@@ -51,8 +51,12 @@ Since this is a Roblox game, you'll need Roblox Studio to run it:
 1. Download Roblox Studio from https://www.roblox.com/create
 2. Open Roblox Studio
 3. Create a new place or open an existing one
-4. Replace the default scripts with the ones from the `src/` folder
-5. Adjust the configuration in each script as needed
+4. Add the scripts from the `src/` folder to your place:
+   - Create a ServerScriptService in the Explorer window
+   - Add main.lua as a ServerScript under ServerScriptService
+   - Add the other Lua files (social_hub.lua, activities_zone.lua, etc.) as ModuleScripts
+5. Create the game environment (platforms, teleport locations, etc.) that the scripts refer to
+6. Adjust the configuration in each script as needed
 
 ## How to Play
 
