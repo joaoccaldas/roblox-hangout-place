@@ -1,91 +1,28 @@
-# Roblox Hangout Place
-
-An amazing virtual hangout space where users can meet, interact, and enjoy various activities together.
-
-## Project Structure
-
-```
-roblox-hangout-place/
-├── src/                    # Lua source code
-│   ├── main.lua           # Main game script
-│   ├── social_hub.lua     # Social interaction features
-│   ├── activities_zone.lua # Mini-games and activities
-│   ├── transport_system.lua # Teleportation and movement
-│   └── customization_system.lua # Avatar and environment customization
-├── assets/                # 3D models, textures, sounds
-├── docs/                  # Documentation
-│   └── concept.md         # Project concept and design
-└── README.md              # This file
-```
-
-## Features
-
-### 1. Social Interaction Hub
-- Central area for meeting and chatting
-- Interactive furniture and seating arrangements
-- Enhanced chat and emote system
-
-### 2. Activity Zones
-- **Treasure Hunt**: Find hidden treasures around the map
-- **Obstacle Course**: Race through challenging obstacles
-- **Build Challenge**: Collaborate to build structures
-
-### 3. Transportation System
-- Teleport to various themed locations:
-  - Beach Area
-  - Mountain Top
-  - Space Station
-  - Underwater Cave
-  - Arcade Zone
-
-### 4. Customization Options
-- Avatar accessories (sunglasses, hats, crowns)
-- Clothing items (costumes, outfits)
-- Animation packs (dances, emotes)
-- Environment furniture and decorations
-
-## Installation
-
-Since this is a Roblox game, you'll need Roblox Studio to run it:
-
-1. Download Roblox Studio from https://www.roblox.com/create
-2. Open Roblox Studio
-3. Create a new place or open an existing one
-4. Add the scripts from the `src/` folder to your place:
-   - Create a ServerScriptService in the Explorer window
-   - Add main.lua as a ServerScript under ServerScriptService
-   - Add the other Lua files (social_hub.lua, activities_zone.lua, etc.) as ModuleScripts
-5. Create the game environment (platforms, teleport locations, etc.) that the scripts refer to
-6. Adjust the configuration in each script as needed
-
-## How to Play
-
-1. Join the hangout place
-2. Explore different areas using the transportation system
-3. Participate in activities and mini-games
-4. Customize your avatar and personal space
-5. Interact with other players
-
-## Technical Details
-
-### Scripts
-- All scripts are written in Lua using the Roblox Luau dialect
-- Uses Roblox services like ReplicatedStorage, Players, TweenService
-- Implements client-server communication via RemoteEvents
-
-### Architecture
-- Modular design with separate systems for each feature
-- Event-driven architecture for responsive interactions
-- Data persistence for player customization
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+IyBSb2Jsb3ggSGFuZ291dCBQbGFjZQoKIyMgQSBTb2NpYWwgSGFuZ291dCBT
+cGFjZSBmb3IgS2lkcwoKQW4gYW1hemluZyB2aXJ0dWFsIGhhbmdvdXQgc3Bh
+Y2Ugd2hlcmUgdXNlcnMgY2FuIG1lZXQsIGludGVyYWN0LCBhbmQgZW5qb3kg
+dmFyaW91cyBhY3Rpdml0aWVzIHRvZ2V0aGVyLiBCdWlsdCBhcyBhIFJvYmxv
+eCBnYW1lIGZvciBteSBraWRzIGFuZCB0aGVpciBmcmllbmRzLgoKIyMgRmVh
+dHVyZXMKIy4jIFNvY2lhbCBJbnRlcmFjdGlvbiBIdWIKLSBDZW50cmFsIGFy
+ZWEgZm9yIG1lZXRpbmcgYW5kIGNoYXR0aW5nCi0gSW50ZXJhY3RpdmUgZnVy
+bml0dXJlIGFuZCBzZWF0aW5nIGFycmFuZ2VtZW50cwotIEVuaGFuY2VkIGNo
+YXQgYW5kIGVtb3RlIHN5c3RlbQoKIy4jIEFjdGl2aXR5IFpvbmVzCi0gVHJl
+YXN1cmUgSHVudDogRmluZCBoaWRkZW4gdHJlYXN1cmVzIGFyb3VuZCB0aGUg
+bWFwCi0gT2JzdGFjbGUgQ291cnNlOiBSYWNlIHRocm91Z2ggY2hhbGxlbmdp
+bmcgb2JzdGFjbGVzCi0gQnVpbGQgQ2hhbGxlbmdlOiBDb2xsYWJvcmF0ZSB0
+byBidWlsZCBzdHJ1Y3R1cmVzCgojLiMgVHJhbnNwb3J0YXRpb24gU3lzdGVt
+Ci0gVGVsZXBvcnQgdG8gdmFyaW91cyB0aGVtZWQgbG9jYXRpb25zOgogIC0g
+QmVhY2ggQXJlYQogIC0gTW91bnRhaW4gVG9wCiAgLSBTcGFjZSBTdGF0aW9u
+CiAgLSBVbmRlcndhdGVyIENhdmUKICAtIEFyY2FkZSBab25lCgojLiMgQ3Vz
+dG9taXphdGlvbiBPcHRpb25zCi0gQXZhdGFyIGFjY2Vzc29yaWVzIChzdW5n
+bGFzc2VzLCBoYXRzLCBjcm93bnMpCi0gQ2xvdGhpbmcgaXRlbXMgKGNvc3R1
+bWVzLCBvdXRmaXRzKQotIEFuaW1hdGlvbiBwYWNrcyAoZGFuY2VzLCBlbW90
+ZXMpCi0gRW52aXJvbm1lbnQgZnVybml0dXJlIGFuZCBkZWNvcmF0aW9ucwoK
+IyMgVGVjaG5vbG9neQotIEx1YSBzY3JpcHRzIHVzaW5nIFJvYmxveCBMdWF1
+IGRpYWxlY3QKLSBVc2VzIFJvYmxveCBzZXJ2aWNlcyBsaWtlIFJlcGxpY2F0
+ZWRTdG9yYWdlLCBQbGF5ZXJzLCBUd2VlblNlcnZpY2UKLSBJbXBsZW1lbnRz
+IGNsaWVudC1zZXJ2ZXIgY29tbXVuaWNhdGlvbiB2aWEgUmVtb3RlRXZlbnRz
+CgojIyBTdGF0dXMKQ29tcGxldGUuIFBsYXllZCBieSBteSBraWRzIGFuZCB0
+aGVpciBmcmllbmRzLiBPcGVuIHNvdXJjZSBmb3Igb3RoZXIgZmFtaWxpZXMu
+CgoqIkJ1aWx0IGJ5IEpryZv28IENhbGRhcyBmb3Iga2lkcyB8IGpvYW9jY2Fs
+ZGFzQGdtYWlsLmNvbSIqKgo=
