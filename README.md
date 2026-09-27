@@ -1,28 +1,47 @@
-IyBSb2Jsb3ggSGFuZ291dCBQbGFjZQoKIyMgQSBTb2NpYWwgSGFuZ291dCBT
-cGFjZSBmb3IgS2lkcwoKQW4gYW1hemluZyB2aXJ0dWFsIGhhbmdvdXQgc3Bh
-Y2Ugd2hlcmUgdXNlcnMgY2FuIG1lZXQsIGludGVyYWN0LCBhbmQgZW5qb3kg
-dmFyaW91cyBhY3Rpdml0aWVzIHRvZ2V0aGVyLiBCdWlsdCBhcyBhIFJvYmxv
-eCBnYW1lIGZvciBteSBraWRzIGFuZCB0aGVpciBmcmllbmRzLgoKIyMgRmVh
-dHVyZXMKIy4jIFNvY2lhbCBJbnRlcmFjdGlvbiBIdWIKLSBDZW50cmFsIGFy
-ZWEgZm9yIG1lZXRpbmcgYW5kIGNoYXR0aW5nCi0gSW50ZXJhY3RpdmUgZnVy
-bml0dXJlIGFuZCBzZWF0aW5nIGFycmFuZ2VtZW50cwotIEVuaGFuY2VkIGNo
-YXQgYW5kIGVtb3RlIHN5c3RlbQoKIy4jIEFjdGl2aXR5IFpvbmVzCi0gVHJl
-YXN1cmUgSHVudDogRmluZCBoaWRkZW4gdHJlYXN1cmVzIGFyb3VuZCB0aGUg
-bWFwCi0gT2JzdGFjbGUgQ291cnNlOiBSYWNlIHRocm91Z2ggY2hhbGxlbmdp
-bmcgb2JzdGFjbGVzCi0gQnVpbGQgQ2hhbGxlbmdlOiBDb2xsYWJvcmF0ZSB0
-byBidWlsZCBzdHJ1Y3R1cmVzCgojLiMgVHJhbnNwb3J0YXRpb24gU3lzdGVt
-Ci0gVGVsZXBvcnQgdG8gdmFyaW91cyB0aGVtZWQgbG9jYXRpb25zOgogIC0g
-QmVhY2ggQXJlYQogIC0gTW91bnRhaW4gVG9wCiAgLSBTcGFjZSBTdGF0aW9u
-CiAgLSBVbmRlcndhdGVyIENhdmUKICAtIEFyY2FkZSBab25lCgojLiMgQ3Vz
-dG9taXphdGlvbiBPcHRpb25zCi0gQXZhdGFyIGFjY2Vzc29yaWVzIChzdW5n
-bGFzc2VzLCBoYXRzLCBjcm93bnMpCi0gQ2xvdGhpbmcgaXRlbXMgKGNvc3R1
-bWVzLCBvdXRmaXRzKQotIEFuaW1hdGlvbiBwYWNrcyAoZGFuY2VzLCBlbW90
-ZXMpCi0gRW52aXJvbm1lbnQgZnVybml0dXJlIGFuZCBkZWNvcmF0aW9ucwoK
-IyMgVGVjaG5vbG9neQotIEx1YSBzY3JpcHRzIHVzaW5nIFJvYmxveCBMdWF1
-IGRpYWxlY3QKLSBVc2VzIFJvYmxveCBzZXJ2aWNlcyBsaWtlIFJlcGxpY2F0
-ZWRTdG9yYWdlLCBQbGF5ZXJzLCBUd2VlblNlcnZpY2UKLSBJbXBsZW1lbnRz
-IGNsaWVudC1zZXJ2ZXIgY29tbXVuaWNhdGlvbiB2aWEgUmVtb3RlRXZlbnRz
-CgojIyBTdGF0dXMKQ29tcGxldGUuIFBsYXllZCBieSBteSBraWRzIGFuZCB0
-aGVpciBmcmllbmRzLiBPcGVuIHNvdXJjZSBmb3Igb3RoZXIgZmFtaWxpZXMu
-CgoqIkJ1aWx0IGJ5IEpryZv28IENhbGRhcyBmb3Iga2lkcyB8IGpvYW9jY2Fs
-ZGFzQGdtYWlsLmNvbSIqKgo=
+# Roblox Hangout Place
+
+## A Social Hangout Space for Kids
+
+An amazing virtual hangout space where users can meet, interact, and enjoy various activities together. Built as a Roblox game for my kids and their friends.
+
+## Features
+#.# Social Interaction Hub
+- Central area for meeting and chatting
+- Interactive furniture and seating arrangements
+- Enhanced chat and emote system
+
+#.# Activity Zones
+- Treasure Hunt: Find hidden treasures around the map
+- Obstacle Course: Race through challenging obstacles
+- Build Challenge: Collaborate to build structures
+
+#.# Transportation System
+- Teleport to various themed locations:
+  - Beach Area
+  - Mountain Top
+  - Space Station
+  - Underwater Cave
+  - Arcade Zone
+
+#.# Customization Options
+- Avatar accessories (sunglasses, hats, crowns)
+- Clothing items (costumes, outfits)
+- Animation packs (dances, emotes)
+- Environment furniture and decorations
+
+## Technology
+- Lua scripts using Roblox Luau dialect
+- Uses Roblox services like ReplicatedStorage, Players, TweenService
+- Implements client-server communication via RemoteEvents
+
+## Status
+Complete. Played by my kids and their friends. Open source for other families.
+
+*"Built by JkÉöð±Ì½È­¥Ìð©½½±Íµ¥°¹½´¨¨(
+
+## Project context
+
+This is a personal, self-directed learning project by João Caldas. I learn by building real projects, comparing approaches, debugging failures, and documenting what I discover.
+
+AI tools are used extensively during research, design, coding, debugging, testing, and documentation as part of that learning process. AI-generated suggestions are treated as inputs to review, not proof of correctness. Important behavior, claims, security boundaries, and data handling should be tested and documented.
+
